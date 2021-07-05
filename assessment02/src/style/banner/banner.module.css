@@ -1,0 +1,55 @@
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-left: 15rem;
+}
+
+.banner-background {
+    background-size: cover;
+    background-image: url(https://resource.skilllane.com/banner_academic/tu_banner.png);
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.academic-icon {
+    display: inline-flex;
+    width: 55px;
+    height: 12px;
+}
+
+.banner-course-detail-header {
+    margin-bottom: 12px;
+}
+
+.banner-course-detail-header h1 {
+    color: #676767;
+    font-size: 30px;
+}
+
+.banner-course-detail-sub-header {
+    margin-bottom: 5px;
+    color: #d13434;
+}
+
+.review-detail {
+    margin-right: 8px;
+    display: inline-flex;
+}
+
+.btn-degree {
+    max-width: 100%;
+    color: #555;
+    border: 1px solid #555;
+    background: #fff;
+    border-radius: 20px;
+    padding: 3px 10px;
+    transition: .2s;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 5px;
+    font-size: 12px;
+}

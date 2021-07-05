@@ -1,0 +1,33 @@
+.content-couse-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-active {
+    border-top: #04542b;
+    border-top-style: solid;
+}
+
+.card-inactive {
+    border-color: #aaa;
+    border-style: solid;
+    border-width: 1rem;
+}
+
+.preview-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} 
+
+.preview-image {
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.card-text {
+    font-size: 12px;
+}

@@ -1,0 +1,57 @@
+.information-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15rem;
+    padding-right: 15rem;
+} 
+
+.information-main-item {
+    flex-grow: 3;
+    width: 50%;
+    margin-right: 5rem;
+}
+
+.information-techer-item {
+    flex-grow: 1;
+    width: 10%;
+}
+
+.information-content-header {
+    color: #fff;
+    background-color: #7B7B7B;
+    text-align: left;
+}
+
+.information-content-item {
+    text-align: left;
+}
+
+.information-content-container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7B7B7B;
+}
+
+.information-container-nav-bar {
+    text-align: center;
+    text-align: left;
+    font-size: 1.2em;
+    color: #00532a;
+    padding: 10px;
+}
+
+.information-container-nav-bar-inactive {
+    text-align: center;
+    text-align: left;
+    font-size: 1.2em;
+    color: #7B7B7B;
+    padding: 10px;
+}
+
+.p-detail {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: left;
+    color: #7B7B7B;
+}
